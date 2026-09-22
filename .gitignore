@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Testing and tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Environment
+.env
+
+# Generated data. Samples under data/samples are tracked deliberately.
+data/corpora/
+data/traces/
+data/results/
+data/features/
+data/models/
+data/cache/
+data/demo/
+data/run_*.log
+!data/samples/
+!data/samples/**
+
+# Notebooks
+.ipynb_checkpoints/
+notebooks/*.jsonl
+
+# OS
+.DS_Store
